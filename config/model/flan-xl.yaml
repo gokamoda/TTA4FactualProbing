@@ -1,0 +1,7 @@
+name: flan-xl
+family: flan
+model_path: google/flan-t5-xl
+device_map: auto
+generation_split: null
+generation_combine: null
+batch_size: 16

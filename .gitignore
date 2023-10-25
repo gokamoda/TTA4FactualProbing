@@ -1,0 +1,15 @@
+.venv
+.vscode
+.DS_Store
+cache
+outputs
+generations
+__pycache__
+
+datasets/inspect.ipynb
+
+src/analysis_count.py
+src/*.jsonl
+src/*.pdf
+
+env.sh

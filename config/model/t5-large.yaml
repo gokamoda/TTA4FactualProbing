@@ -1,0 +1,7 @@
+name: t5-large
+family: t5
+model_path: google/t5-large-ssm-nq
+device_map: auto
+generation_split: null
+generation_combine: null
+batch_size: 8

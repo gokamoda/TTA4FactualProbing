@@ -1,0 +1,4 @@
+openai:
+  - model: text-davinci-003
+    num_return_sequences: 10
+    label: text-davinci-003

@@ -1,0 +1,6 @@
+do_sample: false
+output_scores: true
+return_dict_in_generate: true
+num_beams:  10
+num_return_sequences: 10
+max_new_tokens: 10

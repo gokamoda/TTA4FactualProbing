@@ -1,0 +1,7 @@
+name: t03b
+family: t5
+model_path: bigscience/T0_3B
+device_map: auto
+generation_split: null
+generation_combine: null
+batch_size: 16

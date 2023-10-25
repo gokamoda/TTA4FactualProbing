@@ -1,0 +1,7 @@
+defaults:
+- dataset: wikidata12500
+- model: t5-small
+- augment_methods: ntype7_naug29
+- generation_args: beam_10
+- aggregation_method: random_sample
+- logger: mylogger

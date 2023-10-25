@@ -1,0 +1,26 @@
+word_swapping:
+  - type: wordswap
+    num_return_sequences: 4
+    label: word_swapping_wordswap
+  - type: wordnet
+    num_return_sequences: 4
+    label: word_swapping_wordnet
+back_translation:
+  - target_language: fr
+    num_return_sequences: 4
+    label: back_translation_fr
+  - target_language: ru
+    num_return_sequences: 4
+    label: back_translation_ru
+  - target_language: de
+    num_return_sequences: 4
+    label: back_translation_de
+  - target_language: es
+    num_return_sequences: 4
+    label: back_translation_es
+  - target_language: jap
+    num_return_sequences: 4
+    label: back_translation_ja
+stopwords_filtering:
+  - num_return_sequences: 1 # fixed
+    label: stopwords_filtering
