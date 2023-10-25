@@ -93,5 +93,5 @@ This repository contains code and data for the EMNLP 2023 Findings paper *Test-t
   ```
   python src/main.py model=t5-large
   ```
-  See `config/model/` for avialable models. Change configurations
+  See `config/model/` for avialable models. Change configurations according to your computation environment.
 
